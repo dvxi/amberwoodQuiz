@@ -1,0 +1,24 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.quaternaryBlack {
+  background-color: #2A2A2C;
+}
+
+.btn-secondary {
+  background-color: #47474A;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  color: #8D8D92;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 16px;
+}
